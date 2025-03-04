@@ -1,0 +1,9 @@
+POST http://localhost:8080/events
+content-type: application/json
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RlMEB0ZXN0LmNvbSIsImV4cCI6MTc0MTAzMjY2MywidXNlcklkIjowfQ.ZeBJSwQXmIPbGMeWTVZQ7Dv1fUIVjW8UOcE-NMYitFc
+
+{
+	"name" : "Event 01",
+	"description" : "Decription 01",
+	"Location" : "Location 01"
+}
